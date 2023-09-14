@@ -11,7 +11,7 @@ This is a simple Expresss.js application that can be used to write and save note
 ## Table of Contents:
 - [Overview](#Overview)
 - [The Challenge](#The-Challenge)
-- [Usage Information](#Usage-Information)
+- [User Story](#User-Story)
 - [Installation Process](#Installation-Process)
 - [Built With](#Built-With)
 - [What I Learned](#What-I-Learned)
@@ -87,26 +87,32 @@ The following animation demonstrates the application functionality:
 ```console
 npm i
 npm start
+  or
+node server.js
 ```
-- test
+5. Navigate to http://127.0.0.1:3001/ or http://localhost:3001 respectively.
 
 ## Built With
 - JSON:[ JSON](https://www.npmjs.com/package/json)
 - Heroku:[ Heroku ](https://www.heroku.com/)
 - Dynamic JavaScript
-- Node.js [Version 16.18.1](https://nodejs.org/en/blog/release/v16.18.1/)
-- Express.js:[Express.js](https://expressjs.com/en/starter/installing.html)
-- License Badge: [Shields.io](https://shields.io/)
-- Visual Studio Code: [Website](https://code.visualstudio.com/)
+- Node.js [ 16.18.1](https://nodejs.org/en/blog/release/v16.18.1/)
+- Express.js:[ Express.js](https://expressjs.com/en/starter/installing.html)
+- License Badge: [ Shields.io](https://shields.io/)
+- Visual Studio Code: [ Website](https://code.visualstudio.com/)
+- ChatGPT: [ OpenAI](https://chat.openai.com/)
+- YouTube: [ Website](https://www.youtube.com/)
+- Stack Overflow: [ Website](https://stackoverflow.com/)
 
-## What I Learned
-- I learned how create api routes and html routes.
-- I learned direct deployment to Heroku from the intergrated terminals command line interface.
+## Knowledge Gained
+- I learned how connect a back-end to a front-end.
+- Creating api routes and html routes.
+- Deployment to Heroku from the command line interface.
 
 ### Continued Development:
-1. Creating further options such as bookmarks, pinned notes, and chapters.
-2. Create intergration of this note taker into future deployed applications
-3. Learn more Express development.
+1. Add time stamps/dates for notes.
+2. Add a sort feature by date added/name/importance.
+3. Learn more about Express apps.
 
 ## License & Copyright ©
   
@@ -135,4 +141,4 @@ SOFTWARE.
 
 ## Author
 
-© 2023 [NathanWeekley](https://github.com/Nweekley84). Confidential and Proprietary. All Rights Reserved.
+© 2023 [Nathan Weekley](https://github.com/Nweekley84). Confidential and Proprietary. All Rights Reserved.
