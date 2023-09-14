@@ -1,9 +1,12 @@
 # My Note Taker
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://custom-icon-badges.demolab.com/badge/license-MIT-yellowgreen.svg?logo=law)](https://opensource.org/licenses/MIT)
+![GitHub repo size](https://custom-icon-badges.demolab.com/github/repo-size/Nweekley84/my-note-taker?logo=repo)
+![GitHub top language](https://img.shields.io/github/languages/top/Nweekley84/my-note-taker?logo=javascript&logoColor=f5f5f5)
+![GitHub last commit](https://custom-icon-badges.demolab.com/github/last-commit/Nweekley84/my-note-taker?logo=git-commit)
   
 ## Description
 
-The Expresss JS Note Taker is a simple, lightweight, and fast web application that allows users to write, save and delete notes on their own.
+This is a simple Expresss.js application that can be used to write and save notes. The application will use an Express back end and will save and retrieve note data from a JSON file. Connect the pre-made front-end to a newly built back-end and then deploy the application to Heroku live.
 
 ## Table of Contents:
 - [Overview](#Overview)
@@ -21,7 +24,9 @@ The Expresss JS Note Taker is a simple, lightweight, and fast web application th
 
 ## The Challenge:
 
-Create an application that uses Express.js on the back end by saving and retrieving note data from a JSON file. Once done, merge connect both the back end and front end of the application then deploy the entire application to Heroku.
+Your assignment is to modify starter code to create an application called Note Taker that can be used to write and save notes. This application will use an Express.js back end and will save and retrieve note data from a JSON file.
+
+The application’s front end has already been created. It's your job to build the back end, connect the two, and then deploy the entire application to Heroku.
 
 ## User Story
 
@@ -49,29 +54,29 @@ WHEN I click on the Write icon in the navigation at the top of the page
 THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column
 ```
 ## GIF:
-### Figure .1 GIF
+### 
 
 The following animation demonstrates the application functionality:
 ![A user clicks on slots on the color-coded calendar and edits the events.](/public/assets/images/Express-JS-Note-Taker.GIF)
 
 ## Usage Instructions
-1. Click here to open the [Deployed Application Link:](https://e-js-note.herokuapp.com/)
-2. Click "Get Started" to open the note taker.
+1. Live Deployed App on Heroku: [![My Note Taker](https://custom-icon-badges.demolab.com/badge/MyNoteTaker-blue?logo=link)](https://quiet-meadow-92833-66397c83713c.herokuapp.com/)
+2. Click "Get Started" to open My Note Taker.
 3. Enter text into the 'title' and 'text' fields 
-4. Click the save icon (top right) to save the note.
-5. Click the + icon (top right) to add another note.
-6. Additional: Click the trash icon to delete saved notes.
+4. Click the save icon (top right floppy disc icon) to save the note.
+5. Click the + icon (top right plus sign) to add another note.
+6. To remove a note, click the trash icon to delete saved notes.
 
 ## Deployed Application Link:
 [Deployed Application Link:](https://quiet-meadow-92833-66397c83713c.herokuapp.com/)
 
-## YouTube Walkthrough Video:
-[Click Here to Watch](TBD)
+<!-- ## YouTube Walkthrough Video:
+[Click Here to Watch](TBD) -->
 
 ## Screenshots:
-### Figure 1. Screenshot
-![](/public/assets/images/SS01.png) 
-![](/public/assets/images/SS02.png) 
+### Figures: 1 & 2
+![](./Develop/public/assets/images/SS01.png) 
+![](./Develop/public/assets/images/SS02.png) 
 
 ## Installation Process
 1. Clone the Repository from GitHub 
@@ -80,7 +85,6 @@ The following animation demonstrates the application functionality:
 4. Open the integrated terminal for the document and complete the respective installation guides provided in "Built With" to ensure the cloned documentation will operate.
 
 ## Built With
-- Saiyan Pride
 - JSON:[ JSON](https://www.npmjs.com/package/json)
 - Heroku:[ Heroku ](https://www.heroku.com/)
 - Dynamic JavaScript
