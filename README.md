@@ -15,10 +15,10 @@ This is a simple Expresss.js application that can be used to write and save note
 - [Installation Process](#Installation-Process)
 - [Built With](#Built-With)
 - [What I Learned](#What-I-Learned)
-- [Continued Development](#Continued-Development)
-- [License](#License)
+- [Future Development](#Future-Development)
+- [License & Copyright ©](#License-&-Copyright-©)
 - [Author](#Author)
-- [Acknowledgments](#Acknowledgments)
+<!-- - [Acknowledgments](#Acknowledgments) -->
 
 # Overview
 
@@ -56,7 +56,7 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 ## GIF:
 ### 
 
-The following animation demonstrates the application functionality:
+The following animation demonstrates the applications functionality:
 ![A user clicks on slots on the color-coded calendar and edits the events.](./Develop/public/assets/images/GIF01.gif)
 
 ## Usage Instructions
@@ -109,12 +109,12 @@ node server.js
 - Creating api routes and html routes.
 - Deployment to Heroku from the command line interface.
 
-### Continued Development:
+### Future Development:
 1. Add time stamps/dates for notes.
 2. Add a sort feature by date added/name/importance.
-3. Learn more about Express apps.
+3. Learn more about Express apps in general.
 
-## License & Copyright ©
+## <img src="./Develop/public/assets/images/license.jpeg" width="28"> License & Copyright ©
   
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [Open Source Initiative Link](https://opensource.org/licenses/MIT)
 
@@ -142,3 +142,12 @@ SOFTWARE.
 ## Author
 
 © 2023 [Nathan Weekley](https://github.com/Nweekley84). Confidential and Proprietary. All Rights Reserved.
+
+---
+<br>
+
+<div align="center">
+
+[![github](./Develop/public/assets/images/github.svg)](https://github.com/Nweekley84) 
+
+</div>
