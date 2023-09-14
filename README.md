@@ -16,7 +16,7 @@ This is a simple Expresss.js application that can be used to write and save note
 - [Built With](#Built-With)
 - [Knowledge Gained](#Knowledge-Gained)
 - [Future Development](#Future-Development)
-- [License](#Copyright-©-2023-Nathan-Weekley)
+- [License](#Copyright)
 - [Author](#Author)
 <!-- - [Acknowledgments](#Acknowledgments) -->
 
