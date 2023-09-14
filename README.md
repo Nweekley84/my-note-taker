@@ -89,6 +89,8 @@ npm i
 npm start
   or
 node server.js
+  (incase of error, ensure uniqid is installed)
+npm install uniqid
 ```
 5. Navigate to http://127.0.0.1:3001/ or http://localhost:3001 respectively.
 
