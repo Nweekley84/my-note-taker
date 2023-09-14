@@ -57,7 +57,7 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 ### 
 
 The following animation demonstrates the application functionality:
-![A user clicks on slots on the color-coded calendar and edits the events.](/public/assets/images/GIF01.gif)
+![A user clicks on slots on the color-coded calendar and edits the events.](./Develop/public/assets/images/GIF01.gif)
 
 ## Usage Instructions
 1. Live Deployed App on Heroku: [![My Note Taker](https://custom-icon-badges.demolab.com/badge/MyNoteTaker-blue?logo=link)](https://quiet-meadow-92833-66397c83713c.herokuapp.com/)
