@@ -1,13 +1,15 @@
-const router = require('express').Router();
-const path = require('path');
+// Importing necessary modules
+const router = require('express').Router(); // Express Router
+const path = require('path'); // Node.js path module for handling file paths
 
-// Defines the route that sends 'index.html' as a response to a client when a GET request is made
+// Route to serve the main HTML file
 router.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, '../public/index.html'))
-});
-// Defines the route that sends 'notes.html" as a response to a client when a GET request is made 
-router.get('/notes', (req, res) => {
-    res.sendFile(path.join(__dirname, '../public/notes.html'))
+    res.sendFile(path.join(__dirname, '../public/index.html')); // Send the index.html file located in the public directory
 });
 
-module.exports = router;
+// Route to serve the notes HTML file
+router.get('/notes', (req, res) => {
+    res.sendFile(path.join(__dirname, '../public/notes.html')); // Send the notes.html file located in the public directory
+});
+
+module.exports = router; // Export the router for use in other parts of the application

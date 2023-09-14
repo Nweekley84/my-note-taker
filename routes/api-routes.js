@@ -1,39 +1,35 @@
-const router = require('express').Router();
-const { v4: uuidv4 } = require('uuid');
-const fs = require ("fs");
+const router = require('express').Router(); // Initialize Express Router
+const { v4: uuidv4 } = require('uuid'); // Import UUID module for generating unique IDs
+const fs = require ("fs"); // Import Node.js File System module for file operations
 
-// Defines the get request to this routes end point '/api/notes'
+// Route to get all notes from the database
 router.get('/api/notes', async (req, res) => {
-  const dbJson = await JSON.parse(fs.readFileSync("db/db.json","utf8"));
-  res.json(dbJson);
+  const dbJson = await JSON.parse(fs.readFileSync("db/db.json","utf8")); // Read and parse the JSON file
+  res.json(dbJson); // Send the JSON response containing the notes
 });
 
-// Defines the post request to this routes end point '/api/notes'
+// Route to add a new note to the database
 router.post('/api/notes', (req, res) => {
-  const dbJson = JSON.parse(fs.readFileSync("db/db.json","utf8"));
+  const dbJson = JSON.parse(fs.readFileSync("db/db.json","utf8")); // Read and parse the JSON file
   const newFeedback = {
-    title: req.body.title,
-    text: req.body.text,
-    id: uuidv4(),
+    title: req.body.title, // Get title from request body
+    text: req.body.text, // Get text from request body
+    id: uuidv4(), // Generate a unique ID using UUID
   };
-  dbJson.push(newFeedback);
-  fs.writeFileSync("db/db.json",JSON.stringify(dbJson));
-  res.json(dbJson);
+  dbJson.push(newFeedback); // Add the new feedback to the array
+  fs.writeFileSync("db/db.json",JSON.stringify(dbJson)); // Write the updated data back to the file
+  res.json(dbJson); // Send the updated JSON response
 });
 
-// Defines the delete request to this routes end point '/api/notes/:id'
-// Hello there, and welcome visitor - upon viewing this code you'll understand that for legacy purposes... 
-// this is where the trials and tribulations begin with routing... please ensure to that if you follow the...
-// the same methodology and approach with uuidv4 ... you must enter "npm i uuid@3.4.0" in the Command Line of your Terminal...
+// Route to delete a note from the database
 router.delete('/api/notes/:id', (req, res) => {
-  let data = fs.readFileSync("db/db.json", "utf8");
-  const dataJSON =  JSON.parse(data);
+  let data = fs.readFileSync("db/db.json", "utf8"); // Read the JSON file
+  const dataJSON =  JSON.parse(data); // Parse the JSON data
   const newNotes = dataJSON.filter((note) => { 
-    return note.id !== req.params.id;
+    return note.id !== req.params.id; // Filter out the note with the specified ID
   });
-  fs.writeFileSync("db/db.json",JSON.stringify(newNotes));
-  res.json("Note deleted.");
+  fs.writeFileSync("db/db.json",JSON.stringify(newNotes)); // Write the updated data back to the file
+  res.json("Note deleted."); // Send a confirmation message
 });
 
-module.exports = router; 
-// 😊
+module.exports = router; // Export the router for use in other parts of the application
