@@ -1,17 +1,1 @@
-[
-    {
-        "title": "Groceries",
-        "text": "1. Eggs\n2. Bacon\n3. Sausage",
-        "id": "4oh81a11lmicdaug"
-    },
-    {
-        "title": "Finish late assignments",
-        "text": "1. Module #11 Challenge\n2. Module #13 Challenge\n3. Module #14 Challenge",
-        "id": "4oh81a11lmici36e"
-    },
-    {
-        "title": "Pay Vehicle Registration",
-        "text": "Due on the 29th of September.",
-        "id": "4oh81a11lmicjdu0"
-    }
-]
+[{"title":"Grocery List","text":"1. Bread\n2. Eggs\n3. Milk","id":"77289459-5a28-4980-974f-382319a8d2c1"},{"title":"TODO: list","text":"1. Clean Room\n2. Complete Laundry\n3. Clean Washroom \n4. Call Mom\n5. Visit my wonderful Grandfather 😊","id":"56f04a1d-9a32-467c-85a5-16d81ab553de"}]
