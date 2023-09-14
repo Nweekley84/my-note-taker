@@ -16,7 +16,7 @@ This is a simple Expresss.js application that can be used to write and save note
 - [Built With](#Built-With)
 - [Knowledge Gained](#Knowledge-Gained)
 - [Future Development](#Future-Development)
-- [License & Copyright ©](#License-&-Copyright)
+- [License & Copyright ©](#License)
 - [Author](#Author)
 <!-- - [Acknowledgments](#Acknowledgments) -->
 
@@ -114,7 +114,7 @@ node server.js
 2. Add a sort feature by date added/name/importance.
 3. Learn more about Express apps in general.
 
-## <img src="./Develop/public/assets/images/license.jpeg" width="28"> License & Copyright ©
+## <img src="./Develop/public/assets/images/license.jpeg" width="28"> License
   
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [Open Source Initiative Link](https://opensource.org/licenses/MIT)
 
