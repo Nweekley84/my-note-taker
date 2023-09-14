@@ -82,7 +82,13 @@ The following animation demonstrates the application functionality:
 1. Clone the Repository from GitHub 
 2. (or) Download Zip Folder from Repository from GitHub
 3. Open the cloned (or downloaded) repository in any source code editor.
-4. Open the integrated terminal for the document and complete the respective installation guides provided in "Built With" to ensure the cloned documentation will operate.
+4. Open the integrated terminal for the app's main directory 'Develop' and run the following in order:
+
+```console
+npm i
+npm start
+```
+- test
 
 ## Built With
 - JSON:[ JSON](https://www.npmjs.com/package/json)
